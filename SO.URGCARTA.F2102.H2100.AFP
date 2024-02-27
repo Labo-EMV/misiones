@@ -1,0 +1,821 @@
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00230006
+1
+         FFFFFFFFFF IIIIII  RRRRRRRRRR   SSSSSSSSS  TTTTTTTTTTT        DDDDDDDD     AAAAAAAAA  TTTTTTTTTTT  AAAAAAAAA
+         FFFFFFFFFF IIIIII  RRRRRRRRRRR SSSSSSSSSSS TTTTTTTTTTT        DDDDDDDDD   AAAAAAAAAAA TTTTTTTTTTT AAAAAAAAAAA
+         FF           II    RR       RR SS       SS     TTT            DD     DDD  AA       AA     TTT     AA       AA
+         FFFFFFFFFF   II    RRRRRRRRRRR   SS            TTT            DD      DDD AA       AA     TTT     AA       AA
+         FFFFFFFFFF   II    RRRRRRRRRR      SS          TTT            DD      DDD AAAAAAAAAAA     TTT     AAAAAAAAAAA
+         FF           II    RR   RR           SS        TTT            DD      DDD AAAAAAAAAAA     TTT     AAAAAAAAAAA
+         FF           II    RR    RR    SS      SS      TTT            DD     DDD  AA       AA     TTT     AA       AA
+         FF         IIIIII  RR      RR  SSSSSSSSSSS     TTT            DDDDDDDDD   AA       AA     TTT     AA       AA
+         FF         IIIIII  RR       RR  SSSSSSSSS      TTT            DDDDDDDD    AA       AA     TTT     AA       AA
+
+
+
+
+                 SSSSSSSSS  EEEEEEEEEE   QQQQQQQ   LL                     MM      MM IIIIII   SSSSSSSSS              UU       UU
+                SSSSSSSSSSS EEEEEEEEEE  QQQQQQQQQ  LL                     MMM    MMM IIIIII  SSSSSSSSSSS             UU       UU
+                SS       SS EE         QQQ     QQQ LL                     MMMM  MMMM   II    SS       SS             UU       UU
+                  SS        EEEEEEEEEE QQ       QQ LL         =========== MM MMMM MM   II      SS                    UU       UU
+                    SS      EEEEEEEEEE QQ  QQ   QQ LL                     MM  MM  MM   II        SS                  UU       UU
+                      SS    EE         QQ   QQ  QQ LL         =========== MM      MM   II          SS        ..      UU       UU
+                SS      SS  EE         QQQ   QQQQQ LL                     MM      MM   II    SS      SS     ....     UU       UU
+                SSSSSSSSSSS EEEEEEEEEE  QQQQQQQQQ  LLLLLLLLLL             MM      MM IIIIII  SSSSSSSSSSS    ....      UUUUUUUUU
+                 SSSSSSSSS  EEEEEEEEEE   QQQQQQQ   LLLLLLLLLL             MM      MM IIIIII   SSSSSSSSS      ..        UUUUUUU
+
+
+
+
+                 +-------------------------------------------------+
+                 |                                                 |
+                 |   ESTA MISION DE IMPRESION FUE PRODUCIDA POR    |
+                 |                                                 |
+                 |               C O N T R O L - D                 |
+                 |                                                 |
+                 | SISTEMA AUTOMATICO DE DISTRIBUCION DE REPORTES  |
+                 |                                                 |
+                 +-------------------------------------------------+
+
+
+
+  *****  ****** ****** *****             ******   ***     //  ****  ******     // ******   **
+  *    * *    *   **   *                 *    *  * **    //  *   ** *    *    //  *    *  * *
+  *    * ******   **   *****                *   *  **   //   *  * *    *     //      *   *****
+  *    * *    *   **   *                  *        **  //    * *  *  *      //     *        *
+  *****  *    *   **   *****             ******    ** //      ****  ****** //     ******    *
+
+
+  ****** **** *    * *****             ******   ***  ::     ****   ****   ::      *** ******
+    **    **  **  ** *                 *    *  * **  ::    *   ** *   **  ::     * ** *    *
+    **    **  * ** * *****                *   *  **        *  * * *  * *        *  **    *
+    **    **  *    * *                  *        **  ::    * *  * * *  *  ::       **  *
+    **   **** *    * *****             ******    **  ::     ****   ****   ::       ** ******
+
+1
+ DJDE JDL=CTDBNR,JDE=BNRJOB,COPIES=1,END;
+                   IIIIIII NNN          NNN DDDDDDDDDDDD    IIIIIII CCCCCCCCCCCCCC EEEEEEEEEEEE
+                   III III N NNN        N N DDDDDDDDDDDDD   III III C CCCCCCCCCC C EEEEEEEEEEEE
+                     I I   N NN N       N N D D        D D    I I   C C        CCC E E
+                     I I   N N N N      N N D D         D D   I I   C C            E E
+                     I I   N N  N N     N N D D         D D   I I   C C            E E
+                     I I   N N   N N    N N D D         D D   I I   C C            E EEEEEEEEEE
+                     I I   N N    N N   N N D D         D D   I I   C C            E EEEEEEEEEE
+                     I I   N N     N N  N N D D         D D   I I   C C            E E
+                     I I   N N      N N N N D D         D D   I I   C C        CCC E E
+                     I I   N N       N NN N D D        D D    I I   C C        C C E E
+                   III III N N        NNN N DDDDDDDDDDDDD   III III C CCCCCCCCCC C EEEEEEEEEEEE
+                   IIIIIII NNN          NNN DDDDDDDDDDDD    IIIIIII CCCCCCCCCCCCCC EEEEEEEEEEEE
+
+
+
+ OF GLOBAL BUNDLE
++OF GLOBAL BUNDLE
+ ----------------
++----------------
+
+1
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+       USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
++      USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+      J01545  | PC005F                  |          1 |         10 |    1      |  21/02/24   | PCB1060    |
+      J01545  | PC011F                  |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC011F1                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC033F                  |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC033F1                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC033F2                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC034F                  |          1 |         12 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC035F                  |          1 |         12 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC036F                  |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC036F1                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC036F2                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC037F                  |          1 |         12 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC030F                  |          1 |         16 |    1      |  21/02/24   | PCB1200    |
+      P04330  | CR108F                  |          2 |          9 |    1      |  21/02/24   | CRB2025    |
+      P04330R | CA197F1                 |          4 |         26 |    1      |  20/02/24   | CRB2022E   |
+      P04330R | CA197F1                 |          4 |         20 |    1      |  21/02/24   | CRB2022S   |
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00300006
+ DJDE JDL=CTDBNR,JDE=CODBAR,COPIES=1,END;
+1
+      REPORTES PARA:
+
+          JJJJJJJ    0000000      1111    55555555555      44444  55555555555
+          JJJJJJJ   000000000    11111    55555555555    444 444  55555555555
+               JJ  00     0 00  11 111    55           444   444  55
+               JJ  00    0  00     111    55555555    44     444  55555555
+               JJ  00   0   00     111    5555555555  44444444444 5555555555
+               JJ  00  0    00     111            555 44444444444         555
+          JJ   JJ  00 0     00     111            555        444          555
+          JJJJJJJ   000000000   111111111 5555555555         444  5555555555
+           JJJJJ     0000000    111111111 555555555          444  555555555
+
+
+
++
+
++
+
+
+
+
+
+                                                  SERVICIOS A COMERCIOS
+                                                  MARIANO TABANEZ   CA-1545
+                                                  MTABANEZ
+                                                  PERU 143 PISO 6 BANDEJA 50
+
+
+
+
+
+
+
+
+
+
+           CATEGORY SEQL=MIS.URGCARTA
+
+
+           DATE         21/02/24
+
+           TIME         21:00:12
+
+
+                               *21/02/2421:00:12J01545  *
+                               *21/02/2421:00:12J01545  *
+                               *21/02/2421:00:12J01545  *
+                               *21/02/2421:00:12J01545  *
+                               *21/02/2421:00:12J01545  *
+
+
+
+
+                               21/02/2421:00:12J01545
+
+
+
+
+
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+
+
+
+
+                               SEQL=MIS.URGCARTA
+1
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+       USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
++      USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+      J01545  | PC005F                  |          1 |         10 |    1      |  21/02/24   | PCB1060    |
+      J01545  | PC011F                  |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC011F1                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC033F                  |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC033F1                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC033F2                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC034F                  |          1 |         12 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC035F                  |          1 |         12 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC036F                  |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC036F1                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC036F2                 |          1 |         15 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC037F                  |          1 |         12 |    1      |  21/02/24   | PCB1070    |
+      J01545  | PC030F                  |          1 |         16 |    1      |  21/02/24   | PCB1200    |
+1DJDE JDL=SEGIBM,JDE=STND02,FORMS=FL1000,END;
+1PC1D09  PC005F
+ FIRST DATA                                               SOLICITUDES DE CUPONES                                      FECHA: 21/02/24
+ PROG: PC1D09 - COD PC005F                            LISTADO DE CUPONES SOLICITADOS                                  HORA : 19:10:06
+                                                     ---------------------------------                                HOJA :   1
+-************************************************************************************************************************************
+                        FECHA   ENTIDAD  NUMERO  ENTIDAD  FECHA                                  CANT.
+   CAJA  /CARAT./RE/CUPON  SOLIC.   SOLIC. COMERCIO  PAG.   OPERACION    IMPORTE    CUENTA/TARJETA CUOTAS TIPO DE SOLICITUD OBSERVAC.
+ ************************************************************************************************************************************
+-
+                       NO HAY SOLICITUDES A BUSCAR
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC011O,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D10 -  PC011F                 *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS.        *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC011D,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D10 -  PC011F1                *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS.        *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC033O,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D29 -  PC033F                 *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS         *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC033D,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D29 -  PC033F1                *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS         *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC033T,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D29 -  PC033F2                *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS         *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=CLGIBM,JDE=CLECS1,FORMS=FM0006,END;
+1PC1D10  PC034F
+ FIRST DATA                                               SOLICITUDES DE CUPONES                                      FECHA: 21/02/24
+ PROG: PC1D10 - COD PC034F                           LISTADO DE SOLICITUDES EMITIDAS                                  HORA : 19:10:07
+                                                                                                                      HOJA :   1
+-------------------------------------------------------------------------------------------------------------------------------------
+      COMERCIO         NOMBRE FANTASIA        CANT. TICKETS SOL.
+ ------------------------------------------------------------------------------------------------------------------------------------
+-  **********************************************************************
+   *                                                                    *
+   *          MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.          *
+   *                                                                    *
+   **********************************************************************
+1DJDE JDL=CLGIBM,JDE=CLECS1,FORMS=FM0006,END;
+1PC1D29  PC035F
+ FIRST DATA                                               SOLICITUDES DE CUPONES                                      FECHA: 21/02/24
+ PROG: PC1D29 - COD PC035F                  LISTADO DE SOLICITUDES EMITIDAS * PAGADORA ADMINIST. *                    HORA : 19:10:10
+                                                                                                                      HOJA :   1
+-------------------------------------------------------------------------------------------------------------------------------------
+      COMERCIO         NOMBRE FANTASIA        CANT. TICKETS SOL.
+ ------------------------------------------------------------------------------------------------------------------------------------
+-  **********************************************************************
+   *                                                                    *
+   *          MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.          *
+   *                                                                    *
+   **********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC036O,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D32 -  PC036F                 *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS DA Y VT *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC036D,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D32 -  PC036F1                *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS DA Y VT *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTC1,FORMS=PC036T,END;
+1                                                                          21/02/24
+-
+-
+-
+ ***********************************************************************
+ *                                                                     *
+ *  PROCESO: PCB1070         PROGRAMA:PC1D32 -  PC036F2                *
+ *                                                                     *
+ *                                                                     *
+ *  DENOMINACION DE PROCESO: GENERACION  DE CARTAS A COMERCIOS DA Y VT *
+ *                                                                     *
+ *  MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.                   *
+ *                                                                     *
+ *                                                                     *
+ ***********************************************************************
+1DJDE JDL=CLGIBM,JDE=CLECS1,FORMS=FM0006,END;
+1PC1D32  PC037F
+ FIRST DATA                                               SOLICITUDES DE CUPONES                                      FECHA: 21/02/24
+ PROG: PC1D32 - COD PC037F            LISTADO DE SOLICITUDES EMITIDAS * DEB.AUTOMATICO Y VTA.TELEFONICA *             HORA : 19:10:13
+                                                                                                                      HOJA :   1
+-------------------------------------------------------------------------------------------------------------------------------------
+      COMERCIO         NOMBRE FANTASIA        CANT. TICKETS SOL.
+ ------------------------------------------------------------------------------------------------------------------------------------
+-  **********************************************************************
+   *                                                                    *
+   *          MENSAJE : NO HAY CARTAS DE COMERCIOS A IMPRIMIR.          *
+   *                                                                    *
+   **********************************************************************
+1DJDE JDL=SEGIBM,JDE=SOLTCK,FORMS=PC6,END;
+1                                    - 000                                 21/02/24
+
+-
+-
+-
+   **********************************************************************
+   *                                                                    *
+   *  PROCESO: PCB1200         PROGRAMA:PC1D26         FECHA: 21/02/24  *
+   *                                                                    *
+   *                                                                    *
+   *  DENOMINACION DE PROCESO: GENERACION DE CARTAS A ENTIDADES.        *
+   *                                                                    *
+   *  MENSAJE : NO HAY CARTAS DE ENTIDADES A IMPRIMIR.                  *
+   *                                                                    *
+   *                                                                    *
+   **********************************************************************
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00300006
+1
+                                    EEEEEEEEEEEE NNN          NNN DDDDDDDDDDDD
+                                    EEEEEEEEEEEE N NNN        N N DDDDDDDDDDDDD
+                                    E E          N NN N       N N D D        D D
+                                    E E          N N N N      N N D D         D D
+                                    E E          N N  N N     N N D D         D D
+                                    E EEEEEEEEEE N N   N N    N N D D         D D
+                                    E EEEEEEEEEE N N    N N   N N D D         D D
+                                    E E          N N     N N  N N D D         D D
+                                    E E          N N      N N N N D D         D D
+                                    E E          N N       N NN N D D        D D
+                                    EEEEEEEEEEEE N N        NNN N DDDDDDDDDDDDD
+                                    EEEEEEEEEEEE NNN          NNN DDDDDDDDDDDD
+
+
+
+   ****  *****       *****  *    * *    * *****  *      *****       *****  ****  *****        ::
+  **  ** *           *    * *    * **   * *    * *      *           *     **  ** *  **        ::
+  *    * *****       ****** *    * * *  * *    * *      *****       ***** *    * ****
+  **  ** *           *    * *    * *  * * *    * *    * *           *     **  ** * *          ::
+   ****  *           *****   ****  *   ** *****  ****** *****       *      ****  *   *        ::
+
+
+                 JJJJJJJ    0000000      1111    55555555555      44444  55555555555
+                 JJJJJJJ   000000000    11111    55555555555    444 444  55555555555
+                      JJ  00     0 00  11 111    55           444   444  55
+                      JJ  00    0  00     111    55555555    44     444  55555555
+                      JJ  00   0   00     111    5555555555  44444444444 5555555555
+                      JJ  00  0    00     111            555 44444444444         555
+                 JJ   JJ  00 0     00     111            555        444          555
+                 JJJJJJJ   000000000   111111111 5555555555         444  5555555555
+                  JJJJJ     0000000    111111111 555555555          444  555555555
+
+
+
+
+  *****  ****** ****** *****       ******   ***     //  ****  ******     // ******   **
+  *    * *    *   **   *           *    *  * **    //  *   ** *    *    //  *    *  * *
+  *    * ******   **   *****          *   *  **   //   *  * *    *     //      *   *****
+  *    * *    *   **   *            *        **  //    * *  *  *      //     *        *
+  *****  *    *   **   *****       ******    ** //      ****  ****** //     ******    *
+
+
+  ****** **** *    * *****       ******   ***  ::     ****   ****   ::      *** *****
+    **    **  **  ** *           *    *  * **  ::    *   ** *   **  ::     * **     *
+    **    **  * ** * *****          *   *  **        *  * * *  * *        *  **   ***
+    **    **  *    * *            *        **  ::    * *  * * *  *  ::       **     *
+    **   **** *    * *****       ******    **  ::     ****   ****   ::       ** *****
+
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00300006
+ DJDE JDL=CTDBNR,JDE=CODBAR,COPIES=1,END;
+1
+      REPORTES PARA:
+
+         PPPPPPPPP     0000000        44444   33333333    33333333     0000000
+         PPPPPPPPPP   000000000     444 444  3333333333  3333333333   000000000
+         PP      PP  00     0 00  444   444  333     333 333     333 00     0 00
+         PP      PP  00    0  00 44     444         3333        3333 00    0  00
+         PPPPPPPPPP  00   0   00 44444444444       3333        3333  00   0   00
+         PPPPPPPPP   00  0    00 44444444444         333         333 00  0    00
+         PP          00 0     00        444  333    3333 333    3333 00 0     00
+         PP           000000000         444  3333333333  3333333333   000000000
+         PP            0000000          444   33333333    33333333     0000000
+
+
+
++
+
++
+
+
+
+
+
+                                                  INGRESO EGRESO DE INFORMACION
+                                                  _                   CA-4330
+                                                  _
+                                                  PERU 143 6 PISO
+
+
+
+
+
+
+
+
+
+
+           CATEGORY SEQL=MIS.URGCARTA
+
+
+           DATE         21/02/24
+
+           TIME         21:00:13
+
+
+                               *21/02/2421:00:13P04330  *
+                               *21/02/2421:00:13P04330  *
+                               *21/02/2421:00:13P04330  *
+                               *21/02/2421:00:13P04330  *
+                               *21/02/2421:00:13P04330  *
+
+
+
+
+                               21/02/2421:00:13P04330
+
+
+
+
+
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+
+
+
+
+                               SEQL=MIS.URGCARTA
+1
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+       USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
++      USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+      P04330  | CR108F                  |          2 |          9 |    1      |  21/02/24   | CRB2025    |
+1DJDE JDL=CLGIBM,JDE=CLECS1,FORMS=FM0006,END;
+1DJDE JDL=CLGIBM, JDE=CLECS1, FORMS=FM0006, COPIES=01, END;
+1  FIRST DATA                                                                               FECHA: 21/ 2/24   18:53  HOJA     1
+   PROG. CR1D08  COD. CR108F                      LISTADO DE CARATULAS FALTANTES ENTRE BOLSA      0  Y   52999
+           BOLSA             COD SERVICE       CARATULA          ENTIDAD PRESENTANTE
+
+-
+           NO HAY CARATULAS PENDIENTES
+-
+ TOTAL GENERAL                                      0
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00300006
+1
+                                    EEEEEEEEEEEE NNN          NNN DDDDDDDDDDDD
+                                    EEEEEEEEEEEE N NNN        N N DDDDDDDDDDDDD
+                                    E E          N NN N       N N D D        D D
+                                    E E          N N N N      N N D D         D D
+                                    E E          N N  N N     N N D D         D D
+                                    E EEEEEEEEEE N N   N N    N N D D         D D
+                                    E EEEEEEEEEE N N    N N   N N D D         D D
+                                    E E          N N     N N  N N D D         D D
+                                    E E          N N      N N N N D D         D D
+                                    E E          N N       N NN N D D        D D
+                                    EEEEEEEEEEEE N N        NNN N DDDDDDDDDDDDD
+                                    EEEEEEEEEEEE NNN          NNN DDDDDDDDDDDD
+
+
+
+   ****  *****       *****  *    * *    * *****  *      *****       *****  ****  *****        ::
+  **  ** *           *    * *    * **   * *    * *      *           *     **  ** *  **        ::
+  *    * *****       ****** *    * * *  * *    * *      *****       ***** *    * ****
+  **  ** *           *    * *    * *  * * *    * *    * *           *     **  ** * *          ::
+   ****  *           *****   ****  *   ** *****  ****** *****       *      ****  *   *        ::
+
+
+                PPPPPPPPP     0000000        44444   33333333    33333333     0000000
+                PPPPPPPPPP   000000000     444 444  3333333333  3333333333   000000000
+                PP      PP  00     0 00  444   444  333     333 333     333 00     0 00
+                PP      PP  00    0  00 44     444         3333        3333 00    0  00
+                PPPPPPPPPP  00   0   00 44444444444       3333        3333  00   0   00
+                PPPPPPPPP   00  0    00 44444444444         333         333 00  0    00
+                PP          00 0     00        444  333    3333 333    3333 00 0     00
+                PP           000000000         444  3333333333  3333333333   000000000
+                PP            0000000          444   33333333    33333333     0000000
+
+
+
+
+  *****  ****** ****** *****       ******   ***     //  ****  ******     // ******   **
+  *    * *    *   **   *           *    *  * **    //  *   ** *    *    //  *    *  * *
+  *    * ******   **   *****          *   *  **   //   *  * *    *     //      *   *****
+  *    * *    *   **   *            *        **  //    * *  *  *      //     *        *
+  *****  *    *   **   *****       ******    ** //      ****  ****** //     ******    *
+
+
+  ****** **** *    * *****       ******   ***  ::     ****   ****   ::      *** *****
+    **    **  **  ** *           *    *  * **  ::    *   ** *   **  ::     * **     *
+    **    **  * ** * *****          *   *  **        *  * * *  * *        *  **   ***
+    **    **  *    * *            *        **  ::    * *  * * *  *  ::       **     *
+    **   **** *    * *****       ******    **  ::     ****   ****   ::       ** *****
+
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00300006
+ DJDE JDL=CTDBNR,JDE=CODBAR,COPIES=1,END;
+1
+      REPORTES PARA:
+
+         PPPPPPPPP     0000000        44444   33333333    33333333     0000000   RRRRRRRRRR
+         PPPPPPPPPP   000000000     444 444  3333333333  3333333333   000000000  RRRRRRRRRRR
+         PP      PP  00     0 00  444   444  333     333 333     333 00     0 00 RR       RR
+         PP      PP  00    0  00 44     444         3333        3333 00    0  00 RRRRRRRRRRR
+         PPPPPPPPPP  00   0   00 44444444444       3333        3333  00   0   00 RRRRRRRRRR
+         PPPPPPPPP   00  0    00 44444444444         333         333 00  0    00 RR   RR
+         PP          00 0     00        444  333    3333 333    3333 00 0     00 RR    RR
+         PP           000000000         444  3333333333  3333333333   000000000  RR      RR
+         PP            0000000          444   33333333    33333333     0000000   RR       RR
+
+
+
++
+
++
+
+
+
+
+
+                                                  ING/EGR/INFORMACION REGULARIZACION
+                                                  _           CA-4330R
+                                                  _
+                                                  HIPOLITO YRIGOYEN 874 1SUB. BANDEJA 91
+
+
+
+
+
+
+
+
+
+
+           CATEGORY SEQL=MIS.URGCARTA
+
+
+           DATE         21/02/24
+
+           TIME         21:00:13
+
+
+                               *21/02/2421:00:13P04330R *
+                               *21/02/2421:00:13P04330R *
+                               *21/02/2421:00:13P04330R *
+                               *21/02/2421:00:13P04330R *
+                               *21/02/2421:00:13P04330R *
+
+
+
+
+                               21/02/2421:00:13P04330R
+
+
+
+
+
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+                               *SEQL=MIS.URGCARTA   *
+
+
+
+
+                               SEQL=MIS.URGCARTA
+1
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+       USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
++      USER   | REPORT                  |   PAGES    |    LINES   | COPIES    | FECHA PROC. |  JOBNAME   |
+      ----------------------------------------------------------------------------------------------------
++     ----------------------------------------------------------------------------------------------------
+      P04330R | CA197F1                 |          4 |         26 |    1      |  20/02/24   | CRB2022E   |
+      P04330R | CA197F1                 |          4 |         20 |    1      |  21/02/24   | CRB2022S   |
+1DJDE JDL=BOLIBM,JDE=STND01,FORMS=FL1000,END;
+1DJDE JDL=BOLIBM, JDE=STND01, FORMS=FL1000, COPIES=01, END;
+1
+ FIRST DATA                                            DEPARTAMENTO DE CANJE                          FECHA 21/02/24  04:19  USER OPE
+ PROG. CA2D83   COD. CA197F1   PRESENT. MANUALES   CUPONES  CONFIRMADOS  CON  ERROR - PROCESO DOLAR                  HOJA NRO.      1
+
+
+                                                          TOTALES  GENERALES
+
+          TOTAL RESUMENES DE VTAS      :      0
+          TOTAL RESUMENES DE ADELANTOS :      0
+          TOTAL CUPONES                :      0
+          TOTAL ADELANTOS EN EFECTIVO  :      0
+          TOTAL OTROS                  :      0
+1DJDE JDL=BOLIBM, JDE=STND01, FORMS=FL1000, COPIES=01, END;
+1
+ FIRST DATA                                            DEPARTAMENTO DE CANJE                          FECHA 21/02/24  04:20  USER OPE
+ PROG. CA2D83   COD. CA197F1   PRESENT. MANUALES   CUPONES  CONFIRMADOS  CON  ERROR - PROCESO LOCAL                  HOJA NRO.      1
+
+
+                                                          TOTALES  GENERALES
+
+          TOTAL RESUMENES DE VTAS      :      0
+          TOTAL RESUMENES DE ADELANTOS :      0
+          TOTAL CUPONES                :      0
+          TOTAL ADELANTOS EN EFECTIVO  :      0
+          TOTAL OTROS                  :      0
+1DJDE JDL=BOLIBM,JDE=STND01,FORMS=FL1000,END;
+1DJDE JDL=BOLIBM, JDE=STND01, FORMS=FL1000, COPIES=01, END;
+1
+ FIRST DATA                                            DEPARTAMENTO DE CANJE                          FECHA 21/02/24  18:53  USER OPE
+ PROG. CA2D83   COD. CA197F1   PRESENT. MANUALES   CUPONES  CONFIRMADOS  CON  ERROR - PROCESO DOLAR                  HOJA NRO.      1
+
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *****        ATENCION        *****   NO HAY CUPONES CONFIRMADOS CON ERROR                                                         **
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+1DJDE JDL=BOLIBM, JDE=STND01, FORMS=FL1000, COPIES=01, END;
+1
+ FIRST DATA                                            DEPARTAMENTO DE CANJE                          FECHA 21/02/24  18:53  USER OPE
+ PROG. CA2D83   COD. CA197F1   PRESENT. MANUALES   CUPONES  CONFIRMADOS  CON  ERROR - PROCESO LOCAL                  HOJA NRO.      1
+
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *****        ATENCION        *****   NO HAY CUPONES CONFIRMADOS CON ERROR                                                         **
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00300006
+1
+                                    EEEEEEEEEEEE NNN          NNN DDDDDDDDDDDD
+                                    EEEEEEEEEEEE N NNN        N N DDDDDDDDDDDDD
+                                    E E          N NN N       N N D D        D D
+                                    E E          N N N N      N N D D         D D
+                                    E E          N N  N N     N N D D         D D
+                                    E EEEEEEEEEE N N   N N    N N D D         D D
+                                    E EEEEEEEEEE N N    N N   N N D D         D D
+                                    E E          N N     N N  N N D D         D D
+                                    E E          N N      N N N N D D         D D
+                                    E E          N N       N NN N D D        D D
+                                    EEEEEEEEEEEE N N        NNN N DDDDDDDDDDDDD
+                                    EEEEEEEEEEEE NNN          NNN DDDDDDDDDDDD
+
+
+
+   ****  *****       *****  *    * *    * *****  *      *****       *****  ****  *****        ::
+  **  ** *           *    * *    * **   * *    * *      *           *     **  ** *  **        ::
+  *    * *****       ****** *    * * *  * *    * *      *****       ***** *    * ****
+  **  ** *           *    * *    * *  * * *    * *    * *           *     **  ** * *          ::
+   ****  *           *****   ****  *   ** *****  ****** *****       *      ****  *   *        ::
+
+
+                PPPPPPPPP     0000000        44444   33333333    33333333     0000000   RRRRRRRRRR
+                PPPPPPPPPP   000000000     444 444  3333333333  3333333333   000000000  RRRRRRRRRRR
+                PP      PP  00     0 00  444   444  333     333 333     333 00     0 00 RR       RR
+                PP      PP  00    0  00 44     444         3333        3333 00    0  00 RRRRRRRRRRR
+                PPPPPPPPPP  00   0   00 44444444444       3333        3333  00   0   00 RRRRRRRRRR
+                PPPPPPPPP   00  0    00 44444444444         333         333 00  0    00 RR   RR
+                PP          00 0     00        444  333    3333 333    3333 00 0     00 RR    RR
+                PP           000000000         444  3333333333  3333333333   000000000  RR      RR
+                PP            0000000          444   33333333    33333333     0000000   RR       RR
+
+
+
+
+  *****  ****** ****** *****       ******   ***     //  ****  ******     // ******   **
+  *    * *    *   **   *           *    *  * **    //  *   ** *    *    //  *    *  * *
+  *    * ******   **   *****          *   *  **   //   *  * *    *     //      *   *****
+  *    * *    *   **   *            *        **  //    * *  *  *      //     *        *
+  *****  *    *   **   *****       ******    ** //      ****  ****** //     ******    *
+
+
+  ****** **** *    * *****       ******   ***  ::     ****   ****   ::      *** *****
+    **    **  **  ** *           *    *  * **  ::    *   ** *   **  ::     * **     *
+    **    **  * ** * *****          *   *  **        *  * * *  * *        *  **   ***
+    **    **  *    * *            *        **  ::    * *  * * *  *  ::       **     *
+    **   **** *    * *****       ******    **  ::     ****   ****   ::       ** *****
+
+1DJDE JDE=BNRJOB,JDL=CTDBNR,END;                                        00230006
+1
+         FFFFFFFFFF IIIIII  RRRRRRRRRR   SSSSSSSSS  TTTTTTTTTTT        DDDDDDDD     AAAAAAAAA  TTTTTTTTTTT  AAAAAAAAA
+         FFFFFFFFFF IIIIII  RRRRRRRRRRR SSSSSSSSSSS TTTTTTTTTTT        DDDDDDDDD   AAAAAAAAAAA TTTTTTTTTTT AAAAAAAAAAA
+         FF           II    RR       RR SS       SS     TTT            DD     DDD  AA       AA     TTT     AA       AA
+         FFFFFFFFFF   II    RRRRRRRRRRR   SS            TTT            DD      DDD AA       AA     TTT     AA       AA
+         FFFFFFFFFF   II    RRRRRRRRRR      SS          TTT            DD      DDD AAAAAAAAAAA     TTT     AAAAAAAAAAA
+         FF           II    RR   RR           SS        TTT            DD      DDD AAAAAAAAAAA     TTT     AAAAAAAAAAA
+         FF           II    RR    RR    SS      SS      TTT            DD     DDD  AA       AA     TTT     AA       AA
+         FF         IIIIII  RR      RR  SSSSSSSSSSS     TTT            DDDDDDDDD   AA       AA     TTT     AA       AA
+         FF         IIIIII  RR       RR  SSSSSSSSS      TTT            DDDDDDDD    AA       AA     TTT     AA       AA
+
+
+
+                              FFFFFFFFFF        IIIIII         NN       NN
+                              FFFFFFFFFF        IIIIII         NNN      NN
+                              FF                  II           NNNN     NN
+                              FFFFFFFFFF          II           NN NN    NN
+                              FFFFFFFFFF          II           NN  NN   NN
+                              FF                  II           NN   NN  NN
+                              FF                  II           NN    NN NN
+                              FF                IIIIII         NN     NNNN
+                              FF                IIIIII         NN      NNN
+
+
+                                     DDDDDDDD           EEEEEEEEEE
+                                     DDDDDDDDD          EEEEEEEEEE
+                                     DD     DDD         EE
+                                     DD      DDD        EEEEEEEEEE
+                                     DD      DDD        EEEEEEEEEE
+                                     DD      DDD        EE
+                                     DD     DDD         EE
+                                     DDDDDDDDD          EEEEEEEEEE
+                                     DDDDDDDD           EEEEEEEEEE
+
+
+         MM      MM        IIIIII          SSSSSSSSS         IIIIII           OOOOOOO          NN       NN
+         MMM    MMM        IIIIII         SSSSSSSSSSS        IIIIII          OOOOOOOOO         NNN      NN
+         MMMM  MMMM          II           SS       SS          II           OOO     OOO        NNNN     NN
+         MM MMMM MM          II             SS                 II           OO       OO        NN NN    NN
+         MM  MM  MM          II               SS               II           OO       OO        NN  NN   NN
+         MM      MM          II                 SS             II           OO       OO        NN   NN  NN
+         MM      MM          II           SS      SS           II           OOO     OOO        NN    NN NN
+         MM      MM        IIIIII         SSSSSSSSSSS        IIIIII          OOOOOOOOO         NN     NNNN
+         MM      MM        IIIIII          SSSSSSSSS         IIIIII           OOOOOOO          NN      NNN
+
+
+
+         **** *****  ****  *             *    * ****  ****        *    * ***** ******  ***** ****** ***** ****** ******
+        **    *     *    * *      ====== **  **  **  **           *    * *  ** *      *      *    * *  **   **   *    *
+         ***  ***** *  * * *      ====== * ** *  **   ***         *    * ****  *   ** *      ****** ****    **   ******
+           ** *     *   *  *    *        *    *  **     **  ..    *    * * *   *    * *      *    * * *     **   *    *
+        ****  *****  *** * ******        *    * **** ****   ..     ****  *   * ******  ***** *    * *   *   **   *    *
+
+
+          CCCCCCCCCC   OOOOOOO   NN       NN TTTTTTTTTTT RRRRRRRRRR    OOOOOOO   LL         DDDDDDDD
+         CCCCCCCCCCC  OOOOOOOOO  NNN      NN TTTTTTTTTTT RRRRRRRRRRR  OOOOOOOOO  LL         DDDDDDDDD
+         CCC         OOO     OOO NNNN     NN     TTT     RR       RR OOO     OOO LL         DD     DDD
+         CC          OO       OO NN NN    NN     TTT     RRRRRRRRRRR OO       OO LL         DD      DDD
+         CC          OO       OO NN  NN   NN     TTT     RRRRRRRRRR  OO       OO LL         DD      DDD
+         CC          OO       OO NN   NN  NN     TTT     RR   RR     OO       OO LL         DD      DDD
+         CCC         OOO     OOO NN    NN NN     TTT     RR    RR    OOO     OOO LL         DD     DDD
+         CCCCCCCCCCC  OOOOOOOOO  NN     NNNN     TTT     RR      RR   OOOOOOOOO  LLLLLLLLLL DDDDDDDDD
+          CCCCCCCCCC   OOOOOOO   NN      NNN     TTT     RR       RR   OOOOOOO   LLLLLLLLLL DDDDDDDD
+
+
+
